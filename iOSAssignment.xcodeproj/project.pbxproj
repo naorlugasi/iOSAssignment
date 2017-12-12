@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		D4D29D1F1FDDB024002CE15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D1E1FDDB024002CE15A /* AppDelegate.swift */; };
-		D4D29D211FDDB024002CE15A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D201FDDB024002CE15A /* ViewController.swift */; };
 		D4D29D241FDDB024002CE15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D29D221FDDB024002CE15A /* Main.storyboard */; };
 		D4D29D271FDDB024002CE15A /* iOSAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D251FDDB024002CE15A /* iOSAssignment.xcdatamodeld */; };
 		D4D29D291FDDB024002CE15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D29D281FDDB024002CE15A /* Assets.xcassets */; };
 		D4D29D2C1FDDB024002CE15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D29D2A1FDDB024002CE15A /* LaunchScreen.storyboard */; };
+		D4D29D341FE03157002CE15A /* CanvasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D331FE03157002CE15A /* CanvasVC.swift */; };
+		D4D29D361FE03190002CE15A /* DrawingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D351FE03190002CE15A /* DrawingListVC.swift */; };
+		D4D29D3D1FE0346E002CE15A /* CanvasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D3C1FE0346E002CE15A /* CanvasAPI.swift */; };
+		D4D29D3F1FE03506002CE15A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D3E1FE03505002CE15A /* CoreDataStack.swift */; };
+		D4D29D421FE04B98002CE15A /* Canvas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D401FE04B98002CE15A /* Canvas+CoreDataClass.swift */; };
+		D4D29D431FE04B98002CE15A /* Canvas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D29D411FE04B98002CE15A /* Canvas+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4D29D1B1FDDB024002CE15A /* iOSAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D29D1E1FDDB024002CE15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4D29D201FDDB024002CE15A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4D29D231FDDB024002CE15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4D29D261FDDB024002CE15A /* iOSAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSAssignment.xcdatamodel; sourceTree = "<group>"; };
 		D4D29D281FDDB024002CE15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D29D2B1FDDB024002CE15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4D29D2D1FDDB024002CE15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D29D331FE03157002CE15A /* CanvasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasVC.swift; sourceTree = "<group>"; };
+		D4D29D351FE03190002CE15A /* DrawingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingListVC.swift; sourceTree = "<group>"; };
+		D4D29D3C1FE0346E002CE15A /* CanvasAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasAPI.swift; sourceTree = "<group>"; };
+		D4D29D3E1FE03505002CE15A /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D4D29D401FE04B98002CE15A /* Canvas+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Canvas+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D4D29D411FE04B98002CE15A /* Canvas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Canvas+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				D4D29D1E1FDDB024002CE15A /* AppDelegate.swift */,
-				D4D29D201FDDB024002CE15A /* ViewController.swift */,
+				D4D29D331FE03157002CE15A /* CanvasVC.swift */,
+				D4D29D351FE03190002CE15A /* DrawingListVC.swift */,
 				D4D29D221FDDB024002CE15A /* Main.storyboard */,
 				D4D29D281FDDB024002CE15A /* Assets.xcassets */,
 				D4D29D2A1FDDB024002CE15A /* LaunchScreen.storyboard */,
 				D4D29D2D1FDDB024002CE15A /* Info.plist */,
 				D4D29D251FDDB024002CE15A /* iOSAssignment.xcdatamodeld */,
+				D4D29D401FE04B98002CE15A /* Canvas+CoreDataClass.swift */,
+				D4D29D411FE04B98002CE15A /* Canvas+CoreDataProperties.swift */,
+				D4D29D3C1FE0346E002CE15A /* CanvasAPI.swift */,
+				D4D29D3E1FE03505002CE15A /* CoreDataStack.swift */,
 			);
 			path = iOSAssignment;
 			sourceTree = "<group>";
@@ -139,9 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D29D3D1FE0346E002CE15A /* CanvasAPI.swift in Sources */,
+				D4D29D431FE04B98002CE15A /* Canvas+CoreDataProperties.swift in Sources */,
+				D4D29D361FE03190002CE15A /* DrawingListVC.swift in Sources */,
 				D4D29D271FDDB024002CE15A /* iOSAssignment.xcdatamodeld in Sources */,
-				D4D29D211FDDB024002CE15A /* ViewController.swift in Sources */,
+				D4D29D341FE03157002CE15A /* CanvasVC.swift in Sources */,
 				D4D29D1F1FDDB024002CE15A /* AppDelegate.swift in Sources */,
+				D4D29D421FE04B98002CE15A /* Canvas+CoreDataClass.swift in Sources */,
+				D4D29D3F1FE03506002CE15A /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47A3W62M33;
 				INFOPLIST_FILE = iOSAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newlinks.iOSAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47A3W62M33;
 				INFOPLIST_FILE = iOSAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newlinks.iOSAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
